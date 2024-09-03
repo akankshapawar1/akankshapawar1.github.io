@@ -6,7 +6,10 @@ import {
   FaNode,
   FaReact,
   FaAws,
-  FaGit
+  FaGit,
+  FaPhp,
+  FaHtml5,
+  FaAngular
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -14,7 +17,13 @@ import {
   SiPython,
   SiTypescript,
   SiMongodb,
-  SiDjango
+  SiDjango,
+  SiKotlin,
+  SiCss3,
+  SiFlask,
+  SiPostman,
+  SiPytorch,
+  SiTensorflow
 } from "react-icons/si";
 
 import { IMe } from "./me.interface";
@@ -233,8 +242,28 @@ export const me = {
       icon: SiPython,
     },
     {
+      name: "Kotlin",
+      icon: SiKotlin,
+    },
+    {
+      name: "PHP",
+      icon: FaPhp,
+    },
+    {
+      name: "HTML",
+      icon: FaHtml5,
+    },
+    {
+      name: "CSS",
+      icon: SiCss3,
+    },
+    {
       name: "React",
       icon: FaReact,
+    },
+    {
+      name: "Angular",
+      icon: FaAngular,
     },
     {
       name: "Node.js",
@@ -243,6 +272,10 @@ export const me = {
     {
       name:'Django',
       icon:SiDjango
+    },
+    {
+      name: "Flask",
+      icon: SiFlask,
     },
     {
       name: "MySQL",
@@ -264,6 +297,19 @@ export const me = {
       name:"Git",
       icon:FaGit
     },
+    {
+      name: "Postman",
+      icon: SiPostman,
+    },
+    {
+      name:"PyTorch",
+      icon:SiPytorch
+    },
+    {
+      name:"Tensorflow",
+      icon:SiTensorflow
+    },
+    
   ],
   social: [
     {

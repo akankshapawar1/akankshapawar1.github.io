@@ -5,16 +5,6 @@ import ReactGA from "react-ga4";
 
 function App() {
   useEffect(() => {
-    // Console logs to people who are poking around
-    console.log(
-      "%cHi there! 👋",
-      "font-size: 2rem; font-weight: bold; color: #ED8936;"
-    );
-
-    console.log(
-      "%c I see you're poking around the console.",
-      "font-size: 1.1rem; color: #FFF;"
-    );
 
     console.log(
       "%cIf you're interested in the code for this site, you can find it here:",
